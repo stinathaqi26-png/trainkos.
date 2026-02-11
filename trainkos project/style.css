@@ -1,0 +1,315 @@
+body {
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.search {
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    width: 100px;
+}
+
+.picture {
+    width: 100%;
+}
+
+.whitebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: white;
+    width: 500px;
+    height: 90px;
+}
+
+.arrows {
+    rotate: 90deg;
+    width: 50px;
+}
+
+.navbar {
+    padding-bottom: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000px;
+    background-color: #ad1e24;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    background-image: url(https://th.bing.com/th/id/R.43611d0c00542e50432674a8efd190d0?rik=usKk5tPvKndtxw&riu=http%3a%2f%2fwww.trainkos.com%2fwp-content%2fthemes%2ftrainkos%2fimages%2fbanner_img2.jpg&ehk=88e7skUMqMVbd8jcXAT7MCeMAsL5rOGE1hG%2fMorFGqg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    height: 325px;
+    display: flex;
+    align-items: center;
+}
+
+.from-to {
+    border: 1px solid transparent;
+    font-size: 16px;
+    color: #ac5250;
+    height: 10px;
+}
+
+.btn {
+    padding: 15px 45px;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.3s;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ad1e24;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    color: #000;
+    background-color: #e5e3e3;
+    padding: 20px;
+    border-radius: 0.5em;
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    padding: 20px 40px;
+    padding-bottom: 0px;
+}
+
+.language {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 750px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.contents {
+    display: flex;
+    background-color: #ad1e24;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+}
+
+.contents:hover {
+    background-color: white;
+    height: 46px;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.about-us {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    height: 200px;
+    color: black;
+    width: 600px;
+    font-family: serif;
+    overflow-y: scroll;
+}
+
+.light {
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 5);
+    height: 46px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.orari {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 150px;
+    padding: 30px;
+    margin: 40px;
+}
+
+.ora {
+    width: 100px;
+    height: 100px;
+}
+
+.h1 {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ad1e24;
+    font-weight: bold;
+}
+
+.orari:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
+}
+
+.linjat {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orari-image {
+    width: 550px;
+    padding-right: 80px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin: 40px;
+}
+
+h1 {
+    color: #ad1e24;
+}
+
+.touch-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.misioni {
+    margin: 40px;
+    width: 700px;
+}
+
+.contact-info {
+    margin: 40px;
+}
+
+.hero {
+    display: flex;
+}
+
+.organogrami {
+    width: 650px;
+    margin: 40px;
+}
+
+.bileta {
+    border-radius: 50px;
+    background-color: #ad1e24;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 5);
+    width: 210px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.b-a {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.cmimet {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 165px;
+}
+
+.cmimi {
+    display: flex;
+    flex-direction: column;
+}
+
+.€ {
+    font-size: 60px;
+}
+
+.h2 {
+    margin-top: 0px;
+}
